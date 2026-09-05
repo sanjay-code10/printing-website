@@ -1,0 +1,423 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.product-navbar {
+    background-color: rgb(37, 0, 71);
+    color: white;
+    display: flex;
+    border-bottom: 3px solid rgb(255, 44, 79);
+    box-shadow: 0 5px 2px rgb(110, 60, 69);
+
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation-1,
+.navigation-2,
+.navigation-3 {
+    display: inline-block;
+    justify-content: center;
+
+
+
+    padding: 10px;
+    margin-left: 20px;
+    padding-bottom: 12px;
+
+
+}
+
+.navigation-3 {
+    margin-right: 80px;
+}
+
+.navigation-2 a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+
+    font-size: 20px;
+}
+
+.navigation-2 a:hover {
+    border-bottom: 3px solid rgb(255, 115, 0);
+    color: rgb(255, 115, 0);
+}
+
+.product-search-btn {
+    display: none;
+    color: orange;
+
+    background: none;
+    font-size: 38px;
+    max-width: 30px;
+    max-height: 50px;
+    margin-right: 40px;
+    border: none;
+    cursor: pointer;
+}
+
+.product-cart-btn {
+    font-size: 24px;
+    background: none;
+    border: none;
+
+    margin-right: 50px;
+    color: white;
+    cursor: pointer;
+}
+
+.product-profile-image {
+    max-width: 30px;
+    position: absolute;
+    top: 25px;
+    cursor: pointer;
+
+
+}
+
+.section-1 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.section-1 input {
+    padding: 15px;
+    font-size: 16px;
+    width: 45%;
+
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 10px;
+    background: none;
+}
+
+.section-1 input:focus {
+    outline: none;
+}
+
+.section-1 select:focus {
+    outline: none;
+}
+
+.section-1 select {
+    padding: 15px;
+    font-size: 16px;
+
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 10px;
+    background: none;
+    cursor: pointer;
+}
+
+
+.section-2 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    row-gap: 15px;
+    column-gap: 5px;
+}
+
+.section-2-page2 {
+    display: none;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    row-gap: 15px;
+    column-gap: 5px;
+}
+
+.section-2-page3 {
+    display: none;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    row-gap: 15px;
+    column-gap: 5px;
+}
+
+.product-details {
+    width: 300px;
+    height: 380px;
+
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 8px;
+
+    margin-top: 10px;
+
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+
+}
+
+.product-details img {
+    border-radius: 8px;
+    padding-top: 10px;
+    width: 280px;
+    height: 180px;
+}
+
+.product-rating mark {
+    color: gold;
+    background: none;
+}
+
+.product-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.quantity-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+    width: 100px;
+    height: 25px;
+
+    border-radius: 8px;
+    border: 1px solid gray;
+
+    padding: 5px;
+    margin-left: 80px;
+
+
+
+
+}
+
+.quantity-box-value {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.quantity-box button {
+    background: none;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+}
+
+.price {
+    color: rgb(255, 27, 65);
+}
+
+.addtocart {
+
+    width: 280px;
+    height: 40px;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    border-radius: 8px;
+    border: none;
+
+    background-color: darkblue;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+
+
+.product-next-page-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.product-next-page-btn button {
+
+    padding: 8px;
+    margin: 5px;
+
+    height: 50px;
+    width: 50px;
+
+    font-size: 12pt;
+    font-weight: bold;
+
+    background: none;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+.footer {
+    width: auto;
+    height: 300px;
+    background-color: rgb(0, 0, 56);
+    color: white;
+}
+
+.company-details {
+    display: inline-block;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.slogan-2 {
+    padding-top: 30px;
+}
+
+.logos {
+    padding-top: 20px;
+}
+
+.logos-3 {
+    height: 40px;
+    width: 40px;
+}
+
+.vertical-line {
+    display: inline-block;
+    width: 2px;
+    height: 200px;
+    position: relative;
+    left: 10px;
+    border: none;
+    background-color: white;
+}
+
+.quick-links {
+    display: inline-block;
+    position: relative;
+    left: 30px;
+    text-decoration: none;
+    top: 10px;
+}
+
+.quick-link-01 {
+    font-size: 18pt;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.quick-links-6 {
+    display: block;
+    text-decoration: none;
+    font-size: 14pt;
+    color: white;
+    padding-top: 10px;
+
+}
+
+.vertical-line-2 {
+    display: inline-block;
+    width: 2px;
+    height: 200px;
+    position: relative;
+    left: 80px;
+    border: none;
+    background-color: white;
+}
+
+.our-services-all {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    top: 10px;
+    left: 100px;
+}
+
+.our-services-all-1 {
+    font-size: 18pt;
+    padding-bottom: 10px;
+}
+
+.our-services-all-6 {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 14pt;
+    padding-top: 10px;
+}
+
+.vertical-line-3 {
+    display: inline-block;
+    width: 2px;
+    height: 200px;
+    position: relative;
+    left: 130px;
+    border: none;
+    background-color: white;
+}
+
+
+.contact-us {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    top: 10px;
+    left: 150px;
+}
+
+.contact-us-01 {
+    font-size: 18pt;
+    padding-bottom: 10px;
+}
+
+.contact-details {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 14pt;
+    padding-top: 15px;
+}
+
+.vertical-line-4 {
+    display: inline-block;
+    width: 2px;
+    height: 200px;
+    position: relative;
+    left: 180px;
+    border: none;
+    background-color: white;
+}
+
+.find-us {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    top: 10px;
+    left: 200px;
+}
+
+.find-us-01 {
+    font-size: 18pt;
+    padding-bottom: 10px;
+}
+
+.map {
+    width: 330px;
+    height: 190px;
+    border-radius: 20px;
+}
+
+.vertical-line-5 {
+    margin-top: 20px;
+}
+
+.copyrights {
+    text-align: center;
+    font-size: 16pt;
+    padding-left: 20px;
+    padding-top: 15px;
+}

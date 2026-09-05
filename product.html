@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>products</title>
+    <link rel="stylesheet" href="product.css">
+</head>
+
+<body>
+    <div id="product-page">
+        <!-- this is for product page nav bar which contains company name and anchor tag like home about and cart btn  -->
+        <div class="product-navbar">
+            <div class="navigation-1">
+                <h1>Printers</h1>
+                <p>Premium Printing & Custom Design</p>
+            </div>
+            <div class="navigation-2">
+                <a href="index.html">Home</a>
+                <a href="">About Us</a>
+                <a href="">Services</a>
+                <a href="" style="border-bottom: 3px solid orange; color: orange;">Product</a>
+                <a href="">Blog</a>
+                <a href="">Contact us</a>
+            </div>
+
+            <div class="navigation-3">
+                <button class="product-search-btn"><b>⌕</b></button>
+                <a href="cart.html"><button class="product-cart-btn">🛒︎ Cart</button></a>
+
+                <img src="images/ProfileIcon.png " alt="" class="product-profile-image">
+
+            </div>
+        </div>
+        <br>
+        <main>
+            <section class="section-1">
+                <input type="search" placeholder=" ⌕ Search for products....">
+
+                <select name="products" id="">
+                    <optgroup label="">
+                        <option>Sort by: Products </option>
+                    </optgroup>
+
+                </select>
+            </section>
+            <br>
+            <section class="section-2" id="section-2">
+
+                <div class="product-details">
+
+                    <div class="product-content">
+                        <img src="productimages/01_acrylic_caricature.png" alt="">
+                        <h1>Acrilic Caricature</h1>
+                        <p>Personilezed acrylic Caricature for your loved once.</p>
+                        <!-- <span class="product-rating"><mark>★</mark> 4.8</span> -->
+                        <h1 class="price">₹999</h1>
+
+                        <div class="quantity-box">
+                            <button class="decrease">−</button>
+                            <span class="quantity-box-value">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                        <button class="addtocart" onclick="addtocart()"> 🛒︎ Add to Cart</button>
+                    </div>
+
+                </div>
+
+                <div class="product-details">
+
+                    <div class="product-content">
+                        <img src="productimages/02_acrylic_name_board.png" alt="">
+                        <h1>Acrilic Name Board</h1>
+                        <p>Personilezed acrylic Caricature for your loved once.</p>
+                        <!-- <span class="product-rating"><mark>★</mark> 4.8</span> -->
+                        <h1 class="price">₹1299</h1>
+
+                        <div class="quantity-box">
+                            <button class="decrease">−</button>
+                            <span class="quantity-box-value">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                        <button class="addtocart" onclick="addtocart()"> 🛒︎ Add to Cart</button>
+                    </div>
+
+                </div>
+
+                <div class="product-details">
+
+                    <div class="product-content">
+                        <img src="productimages/03_custom_keychain.png" alt="">
+                        <h1>Acrilic Keychain</h1>
+                        <p>Personilezed acrylic Caricature for your loved once.</p>
+                        <!-- <span class="product-rating"><mark>★</mark> 4.8</span> -->
+                        <h1 class="price">₹299</h1>
+
+                        <div class="quantity-box">
+                            <button class="decrease">−</button>
+                            <span class="quantity-box-value">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                        <button class="addtocart" onclick="addtocart()"> 🛒︎ Add to Cart</button>
+                    </div>
+
+                </div>
+
+                <div class="product-details">
+
+                    <div class="product-content">
+                        <img src="productimages/04_business_card.png" alt="">
+                        <h1>Business Card</h1>
+                        <p>Personilezed acrylic Caricature for your loved once.</p>
+                        <!-- <span class="product-rating"><mark>★</mark> 4.8</span> -->
+                        <h1 class="price">₹1299</h1>
+
+                        <div class="quantity-box">
+                            <button class="decrease">−</button>
+                            <span class="quantity-box-value">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                        <button class="addtocart" onclick="addtocart()"> 🛒︎ Add to Cart</button>
+                    </div>
+
+                </div>
+
+                <div class="product-details">
+
+                    <div class="product-content">
+                        <img src="productimages/05_flex_printing.png" alt="">
+                        <h1>Flex Printing</h1>
+                        <p>Personilezed acrylic Caricature for your loved once.</p>
+                        <!-- <span class="product-rating"><mark>★</mark> 4.8</span> -->
+                        <h1 class="price">₹1199</h1>
+
+                        <div class="quantity-box">
+                            <button class="decrease">−</button>
+                            <span class="quantity-box-value">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                        <button class="addtocart" onclick="addtocart()"> 🛒︎ Add to Cart</button>
+                    </div>
+
+                </div>
+
+                <div class="product-details">
+
+                    <div class="product-content">
+                        <img src="productimages/06_hd_vinyl_printing.png" alt="">
+                        <h1>Hd Vinyl</h1>
+                        <p>Personilezed acrylic Caricature for your loved once.</p>
+                        <!-- <span class="product-rating"><mark>★</mark> 4.8</span> -->
+                        <h1 class="price">₹1299</h1>
+
+                        <div class="quantity-box">
+                            <button class="decrease">−</button>
+                            <span class="quantity-box-value">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                        <button class="addtocart" onclick="addtocart()"> 🛒︎ Add to Cart</button>
+                    </div>
+
+                </div>
+
+                <div class="product-details">
+
+                    <div class="product-content">
+                        <img src="productimages/07_multi_color_printing.png" alt="">
+                        <h1>MultiColor Printing</h1>
+                        <p>Personilezed acrylic Caricature for your loved once.</p>
+                        <!-- <span class="product-rating"><mark>★</mark> 4.8</span> -->
+                        <h1 class="price">₹1299</h1>
+
+                        <div class="quantity-box">
+                            <button class="decrease">−</button>
+                            <span class="quantity-box-value">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                        <button class="addtocart" onclick="addtocart()"> 🛒︎ Add to Cart</button>
+                    </div>
+
+                </div>
+
+                <div class="product-details">
+
+                    <div class="product-content">
+                        <img src="productimages/08_offset_printing.png" alt="">
+                        <h1>Offset Printing</h1>
+                        <p>Personilezed acrylic Caricature for your loved once.</p>
+                        <!-- <span class="product-rating"><mark>★</mark> 4.8</span> -->
+                        <h1 class="price">₹1299</h1>
+
+                        <div class="quantity-box">
+                            <button class="decrease">−</button>
+                            <span class="quantity-box-value">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                        <button class="addtocart" onclick="addtocart()"> 🛒︎ Add to Cart</button>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="section-2-page2" id="section-page2">
+                <div class="product-details">
+
+                    <div class="product-content">
+                        <img src="productimages/04_business_card.pn" alt="acrylicNameBadge">
+                        <h1>Acrylic stand</h1>
+                        <p>Personilezed acrylic Caricature for your loved once.</p>
+                        <!-- <span class="product-rating"><mark>★</mark> 4.8</span> -->
+                        <h1 class="price">₹499</h1>
+
+                        <div class="quantity-box">
+                            <button class="decrease">−</button>
+                            <span class="quantity-box-value">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                        <button class="addtocart" onclick="addtocart()"> 🛒︎ Add to Cart</button>
+                    </div>
+
+                </div>
+
+                <div class="product-details">
+
+                    <div class="product-content">
+                        <img src="productimages/05_flex_printing.pn" alt="">
+                        <h1>Acrylic Printing</h1>
+                        <p>Personilezed acrylic Caricature for your loved once.</p>
+                        <!-- <span class="product-rating"><mark>★</mark> 4.8</span> -->
+                        <h1 class="price">₹2199</h1>
+
+                        <div class="quantity-box">
+                            <button class="decrease">−</button>
+                            <span class="quantity-box-value">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                        <button class="addtocart" onclick="addtocart()"> 🛒︎ Add to Cart</button>
+                    </div>
+
+                </div>
+
+                <div class="product-details">
+
+                    <div class="product-content">
+                        <img src="productimages/06_hd_vinyl_printing.pn" alt="">
+                        <h1>Phone stand</h1>
+                        <p>Personilezed acrylic Caricature for your loved once.</p>
+                        <!-- <span class="product-rating"><mark>★</mark> 4.8</span> -->
+                        <h1 class="price">₹2000</h1>
+
+                        <div class="quantity-box">
+                            <button class="decrease">−</button>
+                            <span class="quantity-box-value">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                        <button class="addtocart" onclick="addtocart()"> 🛒︎ Add to Cart</button>
+                    </div>
+
+                </div>
+
+                <div class="product-details">
+
+                    <div class="product-content">
+                        <img src="productimages/07_multi_color_printing.pn" alt="">
+                        <h1>Acrylic Gift </h1>
+                        <p>Personilezed acrylic Caricature for your loved once.</p>
+                        <!-- <span class="product-rating"><mark>★</mark> 4.8</span> -->
+                        <h1 class="price">₹199</h1>
+
+                        <div class="quantity-box">
+                            <button class="decrease">−</button>
+                            <span class="quantity-box-value">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                        <button class="addtocart" onclick="addtocart()"> 🛒︎ Add to Cart</button>
+                    </div>
+
+                </div>
+
+                <div class="product-details">
+
+                    <div class="product-content">
+                        <img src="productimages/08_offset_printing.pn" alt="">
+                        <h1>Acrylic sheet</h1>
+                        <p>Personilezed acrylic Caricature for your loved once.</p>
+                        <!-- <span class="product-rating"><mark>★</mark> 4.8</span> -->
+                        <h1 class="price">₹2399</h1>
+
+                        <div class="quantity-box">
+                            <button class="decrease">−</button>
+                            <span class="quantity-box-value">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                        <button class="addtocart" onclick="addtocart()"> 🛒︎ Add to Cart</button>
+                    </div>
+
+                </div>
+                <div class="product-details">
+
+                    <div class="product-content">
+                        <img src="productimages/08_offset_printing.pn" alt="">
+                        <h1>Acrylic chain</h1>
+                        <p>Personilezed acrylic Caricature for your loved once.</p>
+                        <!-- <span class="product-rating"><mark>★</mark> 4.8</span> -->
+                        <h1 class="price">₹349</h1>
+
+                        <div class="quantity-box">
+                            <button class="decrease">−</button>
+                            <span class="quantity-box-value">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                        <button class="addtocart" onclick="addtocart()"> 🛒︎ Add to Cart</button>
+                    </div>
+
+                </div>
+                <div class="product-details">
+
+                    <div class="product-content">
+                        <img src="productimages/08_offset_printing.pn" alt="">
+                        <h1>Acrylic Toys</h1>
+                        <p>Personilezed acrylic Caricature for your loved once.</p>
+                        <!-- <span class="product-rating"><mark>★</mark> 4.8</span> -->
+                        <h1 class="price">₹249</h1>
+
+                        <div class="quantity-box">
+                            <button class="decrease">−</button>
+                            <span class="quantity-box-value">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                        <button class="addtocart" onclick="addtocart()"> 🛒︎ Add to Cart</button>
+                    </div>
+
+                </div>
+                <div class="product-details">
+
+                    <div class="product-content">
+                        <img src="productimages/08_offset_printing.pn" alt="">
+                        <h1>Acrylic Stick</h1>
+                        <p>Personilezed acrylic Caricature for your loved once.</p>
+                        <!-- <span class="product-rating"><mark>★</mark> 4.8</span> -->
+                        <h1 class="price">₹555</h1>
+
+                        <div class="quantity-box">
+                            <button class="decrease">−</button>
+                            <span class="quantity-box-value">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                        <button class="addtocart" onclick="addtocart()"> 🛒︎ Add to Cart</button>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="section-2-page3" id="section-page3">
+                <div class="product-details">
+
+                    <div class="product-content">
+                        <img src="productimages/08_offset_printing.png" alt="">
+                        <h1>Offset Printing</h1>
+                        <p>Personilezed acrylic Caricature for your loved once.</p>
+                        <!-- <span class="product-rating"><mark>★</mark> 4.8</span> -->
+                        <h1 class="price">₹1299</h1>
+
+                        <div class="quantity-box">
+                            <button class="decrease">−</button>
+                            <span class="quantity-box-value">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                        <button class="addtocart"> 🛒︎ Add to Cart</button>
+                    </div>
+
+                </div>
+            </section>
+            <br>
+            <section class="section-3">
+                <div class="product-next-page-btn">
+                    <button onclick="page1()" class="page1">1</button>
+                    <button onclick="page2()" class="page2">2</button>
+                    <button onclick="page3()" class="page3">3</button>
+                    <button onclick="page4()">></button>
+                    <button onclick="page5()">>></button>
+                </div>
+            </section>
+        </main>
+
+        <!-- this footer element for product page -->
+
+        <br>
+
+        <footer class="footer footer-2" id="contact-1">
+            <div class="company-details">
+
+                <h1 class="cname-2"> Printers</h1>
+                <p class="cname-3">Think | Design | Print</p>
+                <p class="slogan-2">Your one-step solution for all your <br>
+                    printing and custom acrylic needs. <br>
+                    Quality that speaks your brand!
+                </p>
+
+                <div class="logos">
+                    <img src="images/facebook-logo.png" alt="" class="logos-3">
+                    <img src="images/instagram-logo.png" alt="" class="logos-3">
+                    <img src="images/whatsapp-logo.png" alt="" class="logos-3">
+                </div>
+            </div>
+
+            <hr class="vertical-line">
+
+            <div class="quick-links">
+                <h1 class="quick-link-01">Quick Links</h1>
+                <a href="index.html" class="quick-links-6">Home</a>
+                <a href="#about-1" class="quick-links-6">About Us</a>
+                <a href="#service-1" class="quick-links-6">Services</a>
+                <a href="product.html" class="quick-links-6">Products</a>
+                <a href="#about-1" class="quick-links-6">Portfolio</a>
+                <a href="#contact-1" class="quick-links-6">Contact Us</a>
+            </div>
+
+            <hr class="vertical-line-2">
+
+            <div class="our-services-all">
+                <h1 class="our-services-all-1">Our Services</h1>
+                <a href="" class="our-services-all-6">Acrylic Works</a>
+                <a href="" class="our-services-all-6">Business cards</a>
+                <a href="" class="our-services-all-6">Flex Printing </a>
+                <a href="" class="our-services-all-6">Vinyl Printing</a>
+                <a href="" class="our-services-all-6">offset printing</a>
+                <a href="" class="our-services-all-6">Multi-Color printing</a>
+            </div>
+
+            <hr class="vertical-line-3">
+
+            <div class="contact-us">
+                <h1 class="contact-us-01">Contact Us</h1>
+                <a href="" class="contact-details">123, New Housing Unit, <br> Thanjavur - 613001. <br> Tamil Nadu,
+                    India.</a>
+                <a href="" class="contact-details">+91 63829 26434 </a>
+                <a href="" class="contact-details">printerbranch@gmail.com </a>
+                <a href="" class="contact-details">Sun - Mon:10:00 - 9:00</a>
+            </div>
+
+            <hr class="vertical-line-4">
+
+            <div class="find-us">
+                <h1 class="find-us-01">Find Us</h1>
+                <img src="images/kr-locatiom.png" alt="" class="map">
+            </div>
+
+            <hr class="vertical-line-5">
+
+            <p class="copyrights">&copy;2025 Printers. All Rights Reserved By Sanjay.</p>
+
+        </footer>
+    </div>
+
+    <script>
+
+
+        var quantityBoxes = document.querySelectorAll(".quantity-box");
+
+        quantityBoxes.forEach(function (box) {
+
+            var decreaseBtn = box.querySelector(".decrease");
+            var increaseBtn = box.querySelector(".increase");
+            var quantityValue = box.querySelector(".quantity-box-value");
+
+            increaseBtn.addEventListener("click", function () {
+                var quantity = Number(quantityValue.textContent);
+
+                quantity = quantity + 1;
+
+                quantityValue.textContent = quantity;
+            });
+
+            decreaseBtn.addEventListener("click", function () {
+                var quantity = Number(quantityValue.textContent);
+
+                if (quantity > 1) {
+                    quantity = quantity - 1;
+                    quantityValue.textContent = quantity;
+                }
+            });
+
+        });
+
+
+        
+        var sectionpage1 = document.getElementById("section-2")
+        var sectionpage2 = document.getElementById("section-page2")
+        var sectionpage3 = document.getElementById("section-page3")
+
+
+        function page1() {
+            sectionpage1.style.display = "flex"
+            sectionpage2.style.display = "none"
+            sectionpage3.style.display = "none"
+
+            document.querySelector(".page1").style.background = "darkblue"
+            document.querySelector(".page1").style.color = "white"
+
+            document.querySelector(".page2").style.background = "none"
+            document.querySelector(".page2").style.color = "black"
+
+            document.querySelector(".page3").style.background = "none"
+            document.querySelector(".page3").style.color = "black"
+        }
+
+        function page2() {
+            sectionpage1.style.display = "none"
+            sectionpage2.style.display = "flex"
+            sectionpage3.style.display = "none"
+
+            document.querySelector(".page1").style.background = "none"
+            document.querySelector(".page1").style.color = "black"
+
+            document.querySelector(".page2").style.background = "darkblue"
+            document.querySelector(".page2").style.color = "white"
+
+            document.querySelector(".page3").style.background = "none"
+            document.querySelector(".page3").style.color = "black"
+
+
+        }
+
+        function page3() {
+            sectionpage1.style.display = "none"
+            sectionpage2.style.display = "none"
+            sectionpage3.style.display = "flex"
+
+            document.querySelector(".page1").style.background = "none"
+            document.querySelector(".page1").style.color = "black"
+
+            document.querySelector(".page2").style.background = "none"
+            document.querySelector(".page2").style.color = "black"
+
+            document.querySelector(".page3").style.background = "darkblue"
+            document.querySelector(".page3").style.color = "white"
+        }
+
+        function addtocart() {
+            alert("added to cart")
+        }
+    </script>
+
+
+
+</body>
+
+</html>

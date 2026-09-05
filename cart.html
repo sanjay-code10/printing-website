@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart Page</title>
+    <link rel="stylesheet" href="cart.css">
+</head>
+
+<body>
+    <div class="cart-navbar">
+        <div class="navigation-1">
+            <h1>Printers</h1>
+            <p>Premium Printing & Custom Design</p>
+        </div>
+        <div class="navigation-2">
+            <a href="index.html">Home</a>
+            <a href="">About Us</a>
+            <a href="#contact">Services</a>
+            <a href="product.html">Product</a>
+            <a href="">Blog</a>
+            <a href="#contact">Contact us</a>
+        </div>
+
+        <div class="navigation-3">
+
+            <button class="cart-cart-btn"><mark style="color: orange; background: none; font-size: 28px;"> 🛒︎ </mark>
+                Cart</button>
+            <img src="images/ProfileIcon.png " alt="" class="cart-profile-image">
+
+        </div>
+    </div>
+
+    <main>
+        <section class="section-1">
+            <div class="section-1-content">
+                <h1>Your <mark style="background: none; color: orange;">Cart</mark></h1>
+
+                <p>Home > Cart</p>
+            </div>
+        </section>
+
+        <br>
+
+        <!-- this section-2 content -->
+
+        <div class="inside-container">
+            <section class="section-2">
+
+                <table class="section-2-table">
+                    <tr class="first-row" id="first-row">
+                        <th class="th-first">Products</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Total</th>
+                        <th class="th-last">Action</th>
+                    </tr>
+
+                    <tr class="second-row">
+                        <td class="first-column">
+                            <img src="images/02-image.jpg" alt="" class="section-2-product-image">
+                            <div>
+                                <h3>Acrylic Caricature</h3>
+                                <p>Personalized acrylic <br>Caricature for your loved once</p>
+                            </div>
+                        </td>
+                        <td>
+                            <h2>₹999</h2>
+                        </td>
+                        <td>
+                            <div class="quantity-box">
+                                <button class="decrease">−</button>
+                                <span class="quantity-box-value">1</span>
+                                <button class="increase">+</button>
+                            </div>
+                        </td>
+
+                        <td>
+                            <h2>₹999</h2>
+                        </td>
+
+                        <td>
+                            <button id="deleterow-2">Delete</button>
+                        </td>
+                    </tr>
+
+
+                    <tr class="third-row">
+                        <td class="first-column">
+                            <img src="images/01-image.jpg" alt="" class="section-2-product-image">
+                            <div>
+                                <h3>Acrylic Board</h3>
+                                <p>Personalized acrylic <br>Name Board for your loved once</p>
+                            </div>
+                        </td>
+                        <td>
+                            <h2>₹2499</h2>
+                        </td>
+                        <td>
+                            <div class="quantity-box">
+                                <button class="decrease">−</button>
+                                <span class="quantity-box-value">1</span>
+                                <button class="increase">+</button>
+                            </div>
+                        </td>
+
+                        <td>
+                            <h2>₹2499</h2>
+                        </td>
+
+                        <td>
+                            <button id="deleterow-3">&#128465;</button>
+                        </td>
+                    </tr>
+
+
+                    <tr class="final-row">
+                        <td><a href="product.html"><button class="final-continue-btn">Continue Shoping</button></a></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><button class="final-clear-btn">Clear Cart</button></td>
+                    </tr>
+                </table>
+                <br>
+
+                <div>
+                    <h1><mark style="background: none; border-bottom: 2px solid orange; color: rgb(248, 61, 92);">You
+                        </mark>may also like</h1>
+                    <br>
+                    <div class="also-like-container">
+
+                        <div class="also-like"></div>
+                        <div class="also-like"></div>
+                        <div class="also-like"></div>
+                        <div class="also-like"></div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-3">
+                <div class="section-3-content">
+                    <h1><mark
+                            style="background: none; border-bottom: 2px solid orange; color: rgb(248, 61, 92);">Order</mark>
+                        Summary</h1>
+                    <div class="summary-details">
+                        <p>Subtotal(3items)</p>
+                        <p>Discount(5%)</p>
+                        <p>Delivery Charge</p>
+                    </div>
+
+                    <div class="summary-details prices">
+                        <p>₹ 2,499</p>
+                        <p>₹ -120</p>
+                        <p>₹ 0</p>
+                    </div>
+
+                    <br><br>
+                    <hr>
+
+                    <div class="summary-details-total">
+                        <h1>Total Amount</h1>
+                        <p>(inclusive of all taxes)</p>
+                    </div>
+                    <div class="summary-details-total amountvalue">
+                        <h1>₹ 2379</h1>
+                    </div>
+                    <br><br>
+                    <div class="proceed-checkout-btn">
+                        <button>Proceed to Checkout </button>
+                    </div>
+
+                    <br>
+                    <hr>
+                    <br>
+
+                    <div class="our-details">
+                        <img src="images/3.png" alt="">
+                        <h3>Secure <br> Payment</h3>
+
+                        <img src="images/2.png" alt="">
+                        <h3>Fast <br> Delivery</h3>
+
+                        <img src="images/4.png" alt="">
+                        <h3>100% <br> Satisfaction</h3>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <br>
+
+    <footer class="footer footer-2" id="contact-1">
+        <div class="company-details">
+
+            <h1 class="cname-2"> Printers</h1>
+            <p class="cname-3">Think | Design | Print</p>
+            <p class="slogan-2">Your one-step solution for all your <br>
+                printing and custom acrylic needs. <br>
+                Quality that speaks your brand!
+            </p>
+
+            <div class="logos">
+                <img src="images/facebook-logo.png" alt="" class="logos-3">
+                <img src="images/instagram-logo.png" alt="" class="logos-3">
+                <img src="images/whatsapp-logo.png" alt="" class="logos-3">
+            </div>
+        </div>
+
+        <hr class="vertical-line">
+
+        <div class="quick-links">
+            <h1 class="quick-link-01">Quick Links</h1>
+            <a href="index.html" class="quick-links-6">Home</a>
+            <a href="#about-1" class="quick-links-6">About Us</a>
+            <a href="#service-1" class="quick-links-6">Services</a>
+            <a href="product.html" class="quick-links-6">Products</a>
+            <a href="#about-1" class="quick-links-6">Portfolio</a>
+            <a href="#contact-1" class="quick-links-6">Contact Us</a>
+        </div>
+
+        <hr class="vertical-line-2">
+
+        <div class="our-services-all">
+            <h1 class="our-services-all-1">Our Services</h1>
+            <a href="" class="our-services-all-6">Acrylic Works</a>
+            <a href="" class="our-services-all-6">Business cards</a>
+            <a href="" class="our-services-all-6">Flex Printing </a>
+            <a href="" class="our-services-all-6">Vinyl Printing</a>
+            <a href="" class="our-services-all-6">offset printing</a>
+            <a href="" class="our-services-all-6">Multi-Color printing</a>
+        </div>
+
+        <hr class="vertical-line-3">
+
+        <div class="contact-us" id="contact">
+            <h1 class="contact-us-01">Contact Us</h1>
+            <a href="" class="contact-details">123, New Housing Unit, <br> Thanjavur - 613001. <br> Tamil Nadu,
+                India.</a>
+            <a href="" class="contact-details">+91 63829 26434 </a>
+            <a href="" class="contact-details">printerbranch@gmail.com </a>
+            <a href="" class="contact-details">Sun - Mon:10:00 - 9:00</a>
+        </div>
+
+        <hr class="vertical-line-4">
+
+        <div class="find-us">
+            <h1 class="find-us-01">Find Us</h1>
+            <img src="images/kr-locatiom.png" alt="" class="map">
+        </div>
+
+        <hr class="vertical-line-5">
+
+        <p class="copyrights">&copy;2025 Printers. All Rights Reserved By Sanjay.</p>
+
+    </footer>
+
+    <script>
+        var second = document.querySelector(".second-row")
+        var third = document.querySelector(".third-row")
+        var deletethird = document.getElementById("deleterow-3")
+        var deletesecond = document.getElementById("deleterow-2")
+
+        deletethird.addEventListener("click", function () {
+            third.style.display = "none";
+        })
+        deletesecond.addEventListener("click", function () {
+            second.style.display = "none";
+        })
+
+
+
+
+
+
+        var quantityBoxes = document.querySelectorAll(".quantity-box");
+
+        quantityBoxes.forEach(function (box) {
+
+            var decreaseBtn = box.querySelector(".decrease");
+            var increaseBtn = box.querySelector(".increase");
+            var quantityValue = box.querySelector(".quantity-box-value");
+
+            increaseBtn.addEventListener("click", function () {
+                var quantity = Number(quantityValue.textContent);
+
+                quantity = quantity + 1;
+
+                quantityValue.textContent = quantity;
+            });
+
+            decreaseBtn.addEventListener("click", function () {
+                var quantity = Number(quantityValue.textContent);
+
+                if (quantity > 1) {
+                    quantity = quantity - 1;
+                    quantityValue.textContent = quantity;
+                }
+            });
+
+        });      
+    </script>
+
+</body>
+</html>
